@@ -1,0 +1,8 @@
+<p id="<%= dom_id message %>">
+	<div class="flex flex-col w-full gap-4 my-2">
+    <div class="flex align-center justify-center glass-box items-center p-2">
+      <div class="font-bold font-righteous text-lg text-center w-5/12"><%= message.created_at.to_fs(:short) %></div>
+      <div class="font-raleway text-center w-5/12"><%= message.content %></div>
+    </div>
+  </div>
+</p>
